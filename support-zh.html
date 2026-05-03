@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chirp Alarm — 支持</title>
+<style>
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", sans-serif;
+    max-width: 680px;
+    margin: 48px auto;
+    padding: 0 24px 80px;
+    color: #1a1a1a;
+    line-height: 1.8;
+    font-size: 16px;
+  }
+  h1 { font-size: 26px; margin-bottom: 4px; }
+  h2 { font-size: 17px; margin-top: 36px; margin-bottom: 8px; }
+  p, li { color: #333; }
+  ul { padding-left: 20px; }
+  .subtitle { color: #888; font-size: 15px; margin-bottom: 40px; }
+  a { color: #0070c9; }
+  .contact-box {
+    margin-top: 40px;
+    padding: 20px 24px;
+    background: #f5f5f7;
+    border-radius: 10px;
+  }
+  .contact-box p { margin: 0; }
+</style>
+</head>
+<body>
+
+<h1>Chirp Alarm — 支持</h1>
+<p class="subtitle">问题反馈与使用帮助</p>
+
+<h2>闹钟没有响</h2>
+<p>这是最常见的问题，通常由以下三种原因之一导致：</p>
+<ul>
+  <li><strong>专注模式（勿扰模式）已开启，且 Chirp Alarm 不在允许名单中。</strong>请前往"设置 → 专注模式 → 当前启用的模式 → 允许的应用"，将 Chirp Alarm 添加进去。否则 iOS 可能会屏蔽闹钟的通知备用方案。</li>
+  <li><strong>应用被强制退出。</strong>如果在闹钟等待期间从任务切换界面向上滑动关闭了应用，闹钟将无法响起。请让应用在后台保持运行状态。</li>
+  <li><strong>闹钟设置时间距当前不足一分钟。</strong>请至少提前几分钟设置闹钟，以确保系统有足够时间完成调度。</li>
+</ul>
+
+<h2>闹钟声音太小或没有声音</h2>
+<p>Chirp Alarm 会在闹钟响起时将系统媒体音量调整到您设定的级别。如果没有声音，请检查 iPhone 左侧的静音拨片是否处于静音状态。静音模式会屏蔽媒体音频，不受应用内设置影响。</p>
+
+<h2>搜索不到某个鸟种</h2>
+<p>物种搜索使用的是 xeno-canto 数据库。如果用中文或英文常用名搜索无结果，可以尝试用拉丁学名搜索。并非所有鸟种都有可用录音，若搜索结果为空，该物种可能尚未被收录进 xeno-canto 库中。</p>
+
+<h2>录音无法下载或播放</h2>
+<p>下载录音需要网络连接。若下载失败，请检查网络后在"物种"标签页中重试。已下载的录音会缓存到本地，无需网络即可播放。</p>
+
+<h2>答题不断重置</h2>
+<p>这是正常设计，并非故障。连续答错三次后，闹钟会重置，应用将重新选取一段录音并重新开始。这是本应用的核心机制。</p>
+
+<h2>如何更换播放的录音</h2>
+<p>前往"物种"标签页，点击某个物种，即可预听并选择来自 xeno-canto 的具体录音。只有您已选择并下载的录音才会在闹钟响起时播放。</p>
+
+<h2>联系我们</h2>
+<div class="contact-box">
+  <p>如果以上内容未能解决您的问题，请发送邮件至 <a href="mailto:jonathanxufenghu@gmail.com">jonathanxufenghu@gmail.com</a>，并注明您的 iOS 版本及问题描述。</p>
+</div>
+
+</body>
+</html>
